@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  botton {
+    @apply border py-2 px-3 rounded-full
+  }
+}
