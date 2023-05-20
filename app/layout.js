@@ -1,4 +1,5 @@
 import "./globals.css";
+import Header from "../components/header";
 
 export const metadata = {
   title: "59 London Way",
@@ -13,6 +14,7 @@ export default function RootLayout({ children }) {
         content="width=device-width, height=device-height, initial-scale-1"
       />
       <body>
+        <Header />
         <main>{children}</main>
       </body>
     </html>
